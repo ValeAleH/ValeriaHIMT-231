@@ -1,0 +1,97 @@
+1️⃣ registro.log
+🔹 Solo el dueño puede leer y escribir.
+🔹 Otros usuarios solo pueden leerlo.
+ Permiso esperado: 644
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    4 (grupo: solo lectura → 4)
+    4 (otros: solo lectura → 4)
+
+2️⃣ ejecutable.sh
+🔹 Solo el dueño puede leer, escribir y ejecutar.
+🔹 Nadie más puede acceder.
+ Permiso esperado: 700
+ Explicación:
+
+    7 (dueño: lectura, escritura y ejecución → 4+2+1)
+    0 (grupo: sin acceso)
+    0 (otros: sin acceso)
+
+3️⃣ publico.txt
+🔹 Todos pueden leer y escribir en él.
+ Permiso esperado: 666
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    6 (grupo: lectura y escritura → 4+2)
+    6 (otros: lectura y escritura → 4+2)
+
+4️⃣ respaldo.db
+🔹 Solo el dueño puede leer y escribir.
+🔹 Nadie más debe tener acceso.
+ Permiso esperado: 600
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    0 (grupo: sin acceso)
+    0 (otros: sin acceso)
+
+5️⃣ instrucciones.txt
+🔹 Todos pueden leerlo, pero solo el dueño puede modificarlo.
+ Permiso esperado: 644
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    4 (grupo: solo lectura → 4)
+    4 (otros: solo lectura → 4)
+
+6️⃣ secreto.key
+🔹 Solo el dueño puede leerlo.
+🔹 Nadie más debe tener acceso.
+ Permiso esperado: 400
+ Explicación:
+
+    4 (dueño: solo lectura → 4)
+    0 (grupo: sin acceso)
+    0 (otros: sin acceso)
+
+7️⃣ ejecutar_programa
+🔹 Solo el dueño puede ejecutar el archivo.
+🔹 Nadie más puede leer ni modificarlo.
+ Permiso esperado: 100
+ Explicación:
+
+    1 (dueño: solo ejecución → 1)
+    0 (grupo: sin acceso)
+    0 (otros: sin acceso)
+
+8️⃣ compartido.doc
+🔹 Todos pueden leer y modificar el archivo.
+ Permiso esperado: 666
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    6 (grupo: lectura y escritura → 4+2)
+    6 (otros: lectura y escritura → 4+2)
+
+9️⃣ solo_ejecucion
+🔹 Solo el dueño puede ejecutar el archivo.
+🔹 Todos los demás pueden ejecutarlo pero no modificarlo.
+ Permiso esperado: 755
+ Explicación:
+
+    7 (dueño: lectura, escritura y ejecución → 4+2+1)
+    5 (grupo: solo lectura y ejecución → 4+1)
+    5 (otros: solo lectura y ejecución → 4+1)
+
+🔟 reporte_admin.pdf
+🔹 Solo el dueño puede leer y escribir.
+🔹 El grupo del dueño puede leerlo.
+🔹 Otros usuarios no pueden acceder.
+ Permiso esperado: 640
+ Explicación:
+
+    6 (dueño: lectura y escritura → 4+2)
+    4 (grupo: solo lectura → 4)
+    0 (otros: sin acceso)
