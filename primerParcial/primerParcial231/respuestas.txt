@@ -1,0 +1,108 @@
+Archivo de Respuestas: respuestas.txt
+
+Datos del Estudiante
+- Nombre Completo: Valeria Aleandra Hoyos Tovar 
+- URL de GitHub de la carpeta del examen:
+
+---
+
+## Tarea 1: Navegación y Creación de Carpetas
+
+- Permiso octal usado para restaurar permiso minimo de la carpeta primerParcial:chmod -R 777 primerParcial231
+ 
+- Comandos usados y justificaciones : mkdir Tarea1
+ cd Tarea1
+ mkdir extraFolder
+ cd extraFolder
+ touch notesExtra.txt
+ date
+ echo "jue 13 mar 2025 11:05:18 -04" > notesExtra.txt
+ history
+
+
+
+---
+
+## Tarea 2: Permisos en Formato Octal
+- Permiso octal usado para esta tarea : chmod 600 mainConfig.cfg
+por que 
+propietario: lectura + escritura = 6
+grupo: nada = 0
+otros: nada = 0
+
+- Comandos usados y justificaciones :
+cd tarea2
+ chmod 600 mainConfig.cfg
+ ls -la
+ date
+ nano fechaTarea2.txt
+ echo "Hola mi nombre es Valeria/ vamo que se puede" > mainConfig.cfg
+
+
+
+---
+## Tarea 3: Scripting Básico 
+- Permiso octal usado para el `basicScript.sh`:  chmod 774 basicScript.sh
+
+- Comandos usados y justificaciones :
+chmod 774 basicScript.sh
+  121  ls-ls basicScript.sh
+  122  ls-la basicScript.sh
+  123  ls -la
+  124  mkdir ubicaciones 
+  125  cd ubicaciones
+  126  touch ubicaciones.txt
+  127  cd tarea3
+  128  cd /Escritorio/UCB/Programacion/ValeriaHIMT-231/primerParcial/primerParcial231/tarea3
+  129  touch fechaTarea3.txt
+  130  vim basicScript.sh
+  131  nano basicScript.sh
+  132  ./basicScript.sh
+  133  nano basicScript.sh
+  134  ./basicScript.sh
+  135  /Escritorio/UCB/Programacion/ValeriaHIMT-231/primerParcial/primerParcial231
+  136  nano basicScript.sh
+  137  ./basicScript.sh
+  138  nano basicScript.sh
+  139  ./basicScript.sh
+  140  nano basicScript.sh
+  141  ./basicScript.sh
+  142  history
+
+
+---
+## Tarea 4: Edición con nano o vim 
+
+- para que usamos el comando `cat` ?:Para poder confirmar que se ingreso la informacion correcta y que realmente se utilizó un editor para
+manipular el archivo.
+
+- Comandos usados y justificaciones :
+Editor utilizado = nano 
+Comandos = whoami, uname -r y cat /etc/os-release
+Pasos para guardar y verificar los cambios =Ctrl+O, Ctrl+X 
+ 147  cd tarea4
+  148  nano infoDocument.txt
+  149  cat infoDocument.txt
+  150  touch fechaTarea4.txt
+  151  date > fechaTarea4.txt
+  152  history
+
+
+---
+## Tarea 5: Final
+
+- para que usamos el comando `tree -p` y para que su argumento `-p` ?: para poder observar el contenido de cierta carpeta y el -p es para que al mismo tiempo podamos ver los permisos 
+
+- Permiso octal para `entregaFinal.txt`: chmod 555 entregaFinal.txt
+
+- Comandos usados y justificaciones :
+mkdir tarea5
+  161  cd tarea5
+  162  touch entregaFinal.txt
+  163  tree -p
+  164  tree -p > entregaFinal.txt
+  165  chmod 555 entregaFinal.txt
+  166  ls -la
+  167  history
+
+

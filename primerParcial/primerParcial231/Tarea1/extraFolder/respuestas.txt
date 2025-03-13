@@ -1,0 +1,1 @@
+Tarea 1/ mkdir Tarea1/ cd Tarea1/ mkdir extraFolder/  cd extraFolder / touch notesExtra.txt / date / echo jue 13 mar 2025 11:05:18 -04 > notesExtra.txt / history/ 
