@@ -1,0 +1,49 @@
+#bin/bash
+Ejercicio 1:
+---------------------------------------------------------
+Permisos adecuados: 640
+
+Explicación:
+- El propietario puede leer y escribir: (rw- = 6)
+- El grupo puede leer: (r-- = 4)
+- Otros usuarios no pueden acceder: (--- = 0)
+
+Comando para aplicar permisos:
+chmod 640 documento1.txt
+
+Ejercicio 2: 
+----------------------------------------
+Permisos adecuados: 705
+
+Explicación:
+- El propietario puede leer, escribir y ejecutar: (rwx = 7)
+- El grupo no tiene permisos: (--- = 0)
+- Otros usuarios pueden ejecutar: (--x = 5)
+
+Comando para aplicar permisos:
+chmod 705 script.sh
+
+Ejercicio 3:
+------------------------------------------------------
+Permisos adecuados: 600
+
+Explicación:
+- Solo el propietario puede leer y escribir: (rw- = 6)
+- El grupo no tiene acceso: (--- = 0)
+- Otros usuarios no tienen acceso: (--- = 0)
+
+Comando para aplicar permisos:
+chmod 600 config.cfg
+
+Ejercicio 4:
+----------------------------
+Permisos adecuados: 400
+
+Explicación:
+- Solo el propietario puede leer el archivo: (r-- = 4)
+- El grupo no tiene acceso: (--- = 0)
+- Otros usuarios no tienen acceso: (--- = 0)
+
+Comando para aplicar permisos:
+chmod 400 secreto.key
+

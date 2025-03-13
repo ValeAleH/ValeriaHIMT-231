@@ -1,0 +1,7 @@
+#bin/bash
+
+NOMBRE COMPLETO:
+- Valeria Aleandra Hoyos Tovar
+
+VERSION:
+- Linux Mint 22.1 Cinnamon
